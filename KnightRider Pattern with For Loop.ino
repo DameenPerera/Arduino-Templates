@@ -9,11 +9,13 @@ void setup() {
 }
 
 void loop() {
+  //First pattern
   for (int x = 1; x <= 7; x++){
     digitalWrite(x, HIGH);
     delay(200);
     digitalWrite(x, LOW);
   }
+  //Second pattern
   for (int y = 6; y > 1; y--){
     digitalWrite(y, HIGH);
     delay(200);
