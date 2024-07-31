@@ -15,7 +15,7 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trig, LOW);
 
-  long t = pulseIn(echo, HIGH);
+  long t = pulseIn(echo, HIGH); //time to get pulse in
 
   long inches = t / 74  / 2;
 
